@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+odooly = "*"
+requests = "*"
+vatnumber = {git = "git+https://github.com/AmetrasIntelligence/vatnumber"}
+ydbf = {git = "git+https://github.com/y10h/ydbf"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
